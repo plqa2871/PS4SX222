@@ -2237,6 +2237,8 @@ SCAJ-20152:
   region: "NTSC-J"
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
@@ -6205,6 +6207,8 @@ SCES-53688:
   compat: 5
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
@@ -7734,6 +7738,8 @@ SCKA-20065:
   region: "NTSC-K"
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
@@ -36195,6 +36201,8 @@ SLPM-60272:
   region: "NTSC-J"
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
@@ -60760,6 +60768,8 @@ SLPS-25557:
   region: "NTSC-J"
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
@@ -70931,6 +70941,8 @@ SLUS-21209:
   compat: 5
   gameFixes:
     - EETimingHack # Mitigates bounciness of vertical shaking but better fix with EE cyclerate +1.
+  speedHacks:
+    eeCycleRate: 1 # Reduces vertical shaking and matches the game's timing.
   gsHWFixes:
     alignSprite: 1 # Fixes vertical lines.
     textureInsideRT: 1 # Fixes corruption.
